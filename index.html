@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body class="bg-gray-100 dark:bg-gray-900 scroll-smooth">
+    <header>
+      <nav
+        class="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur shadow-md"
+      >
+        <div
+          class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16"
+        >
+          <a
+            href="#home"
+            class="text-2xl font-bold text-blue-600 dark:text-blue-400 tracking-tight"
+            >MD ANASH</a
+          >
+          <div class="hidden md:flex space-x-8">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+          <button
+            id="menu-btn"
+            class="md:hidden p-2 rounded text-blue-600 dark:text-blue-400 focus:outline-none"
+          >
+            <svg
+              class="h-7 w-7"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
+          <a href="#home" class="block nav-link mb-2">Home</a>
+          <a href="#about" class="block nav-link mb-2">About</a>
+          <a href="#projects" class="block nav-link mb-2">Projects</a>
+          <a href="#contact" class="block nav-link">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home Section -->
+      <section
+        id="home"
+        class="fade-in min-h-[70vh] flex flex-col justify-center items-center text-center px-4"
+      >
+        <h1
+          class="text-4xl sm:text-5xl font-extrabold text-blue-700 dark:text-blue-300 mb-4 mt-16"
+        >
+          Welcome to My Portfolio
+        </h1>
+        <p
+          class="text-lg sm:text-xl text-gray-700 dark:text-gray-300 max-w-2xl mb-8"
+        >
+          Hi, I'm MD Anash. I build modern, responsive websites and web apps
+          using the latest technologies.
+        </p>
+        <a
+          href="#projects"
+          class="inline-block px-6 py-3 bg-blue-600 text-white rounded-full shadow hover:bg-blue-700 transition"
+          >View Projects</a
+        >
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="fade-in max-w-4xl mx-auto px-4 py-16">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8">
+          <h2 class="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-4">
+            About Me
+          </h2>
+          <p class="text-gray-700 dark:text-gray-300 text-lg">
+            I'm a passionate web developer with experience in HTML, CSS,
+            JavaScript, React, and Tailwind CSS. I love crafting beautiful,
+            user-friendly interfaces and solving real-world problems through
+            code.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-4">
+            <span
+              class="px-4 py-2 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium"
+            >
+              HTML
+            </span>
+            <span
+              class="px-4 py-2 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium"
+            >
+              CSS
+            </span>
+            <span
+              class="px-4 py-2 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium"
+            >
+              JavaScript
+            </span>
+            <span
+              class="px-4 py-2 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium"
+            >
+              React
+            </span>
+            <span
+              class="px-4 py-2 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium"
+            >
+              Tailwind CSS
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="fade-in max-w-7xl mx-auto px-4 py-16">
+        <h2
+          class="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-8 text-center"
+        >
+          Projects
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 hover:scale-105 transition-transform duration-300"
+          >
+            <h3
+              class="text-xl font-semibold text-gray-900 dark:text-white mb-2"
+            >
+              Project 1
+            </h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">
+              A modern landing page built with React and Tailwind CSS.
+            </p>
+            <a href="#" class="text-blue-600 dark:text-blue-400 underline"
+              >Live Preview</a
+            >
+          </div>
+          <div
+            class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 hover:scale-105 transition-transform duration-300"
+          >
+            <h3
+              class="text-xl font-semibold text-gray-900 dark:text-white mb-2"
+            >
+              Project 2
+            </h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">
+              A responsive portfolio website showcasing my work and skills.
+            </p>
+            <a href="#" class="text-blue-600 dark:text-blue-400 underline"
+              >Live Preview</a
+            >
+          </div>
+          <div
+            class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 hover:scale-105 transition-transform duration-300"
+          >
+            <h3
+              class="text-xl font-semibold text-gray-900 dark:text-white mb-2"
+            >
+              Project 3
+            </h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">
+              A contact form with validation and smooth user experience.
+            </p>
+            <a href="#" class="text-blue-600 dark:text-blue-400 underline"
+              >Live Preview</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="fade-in max-w-3xl mx-auto px-4 py-16">
+        <div
+          class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 text-center"
+        >
+          <h2 class="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-4">
+            Contact
+          </h2>
+          <p class="text-gray-700 dark:text-gray-300 mb-6">
+            Interested in working together or have a question? Reach out!
+          </p>
+          <!-- <a
+            href="mailto:your@email.com"
+            class="inline-block px-6 py-3 bg-blue-600 text-white rounded-full shadow hover:bg-blue-700 transition"
+            >your@email.com</a
+          > -->
+          <a
+            href="mailto:mdanash483@email.com"
+            target="_blank"
+            class="flex items-center gap-2 text-white hover:text-blue-700 transition"
+            ><i class="ph ph-envelope-simple text-2xl"></i>Email</a
+          >
+          <a
+            href="https://www.instagram.com/mhuanas/"
+            target="_blank"
+            class="flex items-center gap-2 mt-2 text-white hover:text-blue-700 transition"
+            ><i class="ph ph-instagram-logo  text-2xl"></i>Instagram</a
+          >
+          <a
+            href="mailto:your@email.com"
+            target="_blank"
+            class="flex items-center gap-2 mt-2 text-white hover:text-blue-700 transition"
+            ><i class="ph ph-github-logo text-2xl"></i>Github</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-white dark:bg-gray-900 mt-8 py-6 shadow-inner">
+      <div
+        class="max-w-7xl mx-auto px-4 text-center text-gray-600 dark:text-gray-300 text-sm"
+      >
+        © 2023 MD Anash. All rights reserved.
+      </div>
+    </footer>
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .fade-in {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: opacity 0.8s, transform 0.8s;
+      }
+      .fade-in.visible {
+        opacity: 1;
+        transform: none;
+      }
+      .nav-link {
+        color: #374151; /* text-gray-700 */
+        font-weight: 500; /* font-medium */
+        transition: color 0.2s;
+      }
+      .dark .nav-link {
+        color: #d1d5db; /* dark:text-gray-300 */
+      }
+      .nav-link:hover {
+        color: #2563eb; /* hover:text-blue-600 */
+      }
+      .dark .nav-link:hover {
+        color: #60a5fa; /* dark:hover:text-blue-400 */
+      }
+      .material-icons {
+        font-family: "Material Icons";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        direction: ltr;
+        font-feature-settings: "liga";
+        -webkit-font-feature-settings: "liga";
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <script>
+      // Mobile menu toggle
+      document.getElementById("menu-btn").onclick = function () {
+        document.getElementById("mobile-menu").classList.toggle("hidden");
+      };
+      // Fade-in animation on scroll
+      function reveal() {
+        document.querySelectorAll(".fade-in").forEach((el) => {
+          const rect = el.getBoundingClientRect();
+          if (rect.top < window.innerHeight - 60) {
+            el.classList.add("visible");
+          }
+        });
+      }
+      window.addEventListener("scroll", reveal);
+      window.addEventListener("DOMContentLoaded", reveal);
+    </script>
+  </body>
+</html>
