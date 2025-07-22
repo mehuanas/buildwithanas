@@ -18,8 +18,36 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
     />
-    <link rel="stylesheet" href="style.css">
+<!--     <link rel="stylesheet" href="style.css"> -->
     <title>Anash | Web Developer</title>
+
+    <style>
+      * {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+.scroll-tracker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 0vw;
+  height: 2px;
+  background-color: #60a5fa;
+  animation: scroll-tracker linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll-tracker {
+  to {
+    width: 100vw;
+  }
+}
+    <style/>
   </head>
   <body class="bg-gray-100 dark:bg-gray-900 scroll-smooth">
     <div class="scroll-tracker"></div>
