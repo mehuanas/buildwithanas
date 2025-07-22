@@ -1,0 +1,25 @@
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+.scroll-tracker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 0vw;
+  height: 2px;
+  background-color: #60a5fa;
+  animation: scroll-tracker linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll-tracker {
+  to {
+    width: 100vw;
+  }
+}
