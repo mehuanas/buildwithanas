@@ -5,8 +5,9 @@ const Footer = () => {
     <footer
       id="footer"
       role="contentinfo"
+      data-anim="fade-up"
       style={{ backgroundColor: "var(--bg-2)" }}
-      className="w-full py-8 mt-12 reveal"
+      className="reveal w-full py-8 mt-12"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-center md:text-left">
