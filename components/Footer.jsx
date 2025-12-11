@@ -55,7 +55,7 @@ const Footer = () => {
               <i className="ri-instagram-line text-2xl" aria-hidden="true"></i>
             </a>
 
-            <a
+            {/* <a
               href="https://www.linkedin.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -64,7 +64,7 @@ const Footer = () => {
               style={{ color: "var(--heading)" }}
             >
               <i className="ri-linkedin-line text-2xl" aria-hidden="true"></i>
-            </a>
+            </a> */}
           </nav>
 
           <a
