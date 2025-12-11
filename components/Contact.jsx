@@ -4,8 +4,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
+      data-anim="fade-right"
       style={{ backgroundColor: "var(--bg-4)" }}
-      className="w-full py-16"
+      className="reveal w-full py-16"
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 reveal">
