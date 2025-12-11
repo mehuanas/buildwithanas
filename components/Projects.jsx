@@ -28,10 +28,11 @@ const Projects = () => {
   return (
     <section
       id="projects"
+      data-anim="fade-left"
       style={{ backgroundColor: "var(--bg-3)" }}
-      className="w-full py-20 px-4 sm:px-6 lg:px-8"
+      className="reveal w-full py-20 px-4 sm:px-6 lg:px-8"
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="reveal max-w-6xl mx-auto">
         <div className="text-center mb-10">
           <h2
             className="text-3xl sm:text-4xl font-bold"
@@ -90,13 +91,14 @@ const Projects = () => {
                 ))}
               </div>
 
-              {/* <div className="mt-6 flex gap-3">
+              <div className="mt-6 flex gap-3">
                 <a
                   href={p.live}
                   className="cta-button px-4 py-2 rounded-md text-sm font-semibold"
                   style={{
-                    background: 'linear-gradient(90deg, var(--accent-from), var(--accent-to))',
-                    color: 'var(--accent-text)'
+                    background:
+                      "linear-gradient(90deg, var(--accent-from), var(--accent-to))",
+                    color: "var(--accent-text)",
                   }}
                 >
                   Live
@@ -105,14 +107,14 @@ const Projects = () => {
                   href={p.code}
                   className="px-4 py-2 rounded-md text-sm font-medium"
                   style={{
-                    background: 'transparent',
-                    color: 'var(--text)',
-                    border: '1px solid rgba(255,255,255,0.04)'
+                    background: "transparent",
+                    color: "var(--text)",
+                    border: "1px solid rgba(255,255,255,0.04)",
                   }}
                 >
                   Code
                 </a>
-              </div> */}
+              </div>
             </article>
           ))}
         </div>
