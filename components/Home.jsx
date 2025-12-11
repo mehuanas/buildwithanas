@@ -4,7 +4,8 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8 pt-24 sm:pt-20"
+      data-anim="zoom"
+      className="reveal min-h-screen flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8 pt-24 sm:pt-20"
     >
       <h1
         className="fade-in-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 sm:mb-6"
@@ -16,7 +17,7 @@ const Home = () => {
         className="fade-in-text text-sm sm:text-base md:text-lg lg:text-xl max-w-2xl mb-8 sm:mb-10 px-2"
         style={{ color: "var(--muted)" }}
       >
-        Hi, I'm MD Anash. I build modern, responsive websites and web apps using
+        Hi, I'm Anash. I build modern, responsive websites and web apps using
         the latest technologies.
       </p>
       <a
