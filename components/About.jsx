@@ -2,7 +2,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full h-screen px-4 sm:px-6 lg:px-8 flex items-center justify-center pt-0 sm:pt-0"
+      className="w-full px-4 sm:px-6 lg:px-8 flex items-center justify-center pt-0 sm:pt-0"
       style={{ backgroundColor: "var(--bg-2)" }}
     >
       <div className="max-w-4xl mx-auto py-12 sm:py-16 lg:py-20">
