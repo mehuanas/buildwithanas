@@ -2,10 +2,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full px-4 sm:px-6 lg:px-8 flex items-center justify-center pt-0 sm:pt-0"
+      className="w-full px-4 sm:px-6 lg:px-8 flex items-center justify-center pt-0 sm:pt-0 reveal"
       style={{ backgroundColor: "var(--bg-2)" }}
     >
-      <div className="max-w-4xl mx-auto py-12 sm:py-16 lg:py-20">
+      <div className="block-elem max-w-4xl mx-auto py-12 sm:py-16 lg:py-20">
         <div
           className="rounded-xl shadow-lg p-6 sm:p-8 lg:p-10"
           style={{ backgroundColor: "var(--card)" }}
