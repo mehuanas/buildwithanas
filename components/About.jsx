@@ -82,6 +82,16 @@ const About = () => {
                   border: "1px solid rgba(124,58,237,0.08)",
                 }}
               >
+                Framer Motion
+              </span>
+              <span
+                className="skill-badge px-3 sm:px-4 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-medium text-center"
+                style={{
+                  backgroundColor: "rgba(124,58,237,0.08)",
+                  color: "var(--accent-from)",
+                  border: "1px solid rgba(124,58,237,0.08)",
+                }}
+              >
                 JavaScript
               </span>
               <span
