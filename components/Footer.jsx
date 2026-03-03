@@ -18,7 +18,7 @@ const Footer = () => {
             Portfolio
           </div>
           <p className="text-sm mt-1" style={{ color: "var(--text)" }}>
-            Built with React • © {new Date().getFullYear()} MD Anash
+            Built with React • © {new Date().getFullYear()} Md Anash
           </p>
         </div>
 
