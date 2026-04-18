@@ -28,7 +28,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Email */}
           <a
-            href="mailto:mdanash483@email.com"
+            href="mailto:mehuanash@gmail.com"
             className="reveal card-hover project-card p-6 rounded-xl flex flex-col items-center text-center"
             aria-label="Send email"
             rel="noopener noreferrer"
@@ -51,7 +51,7 @@ const Contact = () => {
               Email
             </h3>
             <p className="text-sm" style={{ color: "var(--text)" }}>
-              mdanash483@email.com
+              mehuanash@gmail.com
             </p>
           </a>
 
